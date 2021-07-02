@@ -4,7 +4,7 @@ import MenuItem from './menu-item/Menu-item';
 
 const Menu = () => {
     return (
-        <ul>
+        <ul className={classes.menu}>
             <MenuItem link="/profile"  text ="Мой профиль"/>
             <MenuItem link="/dialogs"  text ="Диалоги"/>
             <MenuItem link="/news"  text ="Новости"/>

@@ -1,0 +1,15 @@
+.item:not(:first-child) {
+    display: block;
+    margin-left: 10px;
+}
+.link {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, .2);
+    transition: background-color ease-in .1s;
+    /* box-shadow: 0 0 7px #ffffff; */
+}
+
+.link:hover{
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 1);
+}
