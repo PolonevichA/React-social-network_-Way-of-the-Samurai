@@ -1,5 +1,19 @@
 .user{
     display: block;
     padding: 10px;
-    box-shadow: 0 0 3px #ffffff;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 5px;
+    border: 1px solid #fff;
+    /* box-shadow: 0 0 3px #ffffff; */
+}
+
+.user:not(:last-child){
+    margin-bottom: 5px;
+}
+
+.active{
+    background-color: #02c110;
+    box-shadow: none;
+    border-radius: 5px;
+    color: white;
 }

@@ -5,11 +5,20 @@
 .link {
     padding: 10px;
     background-color: rgba(255, 255, 255, .2);
+    border: 1px solid #ffffff;
+    border-radius: 5px;
     transition: background-color ease-in .1s;
     /* box-shadow: 0 0 7px #ffffff; */
 }
 
 .link:hover{
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: #02c110;
+}
+
+.active{
+    background-color: #02c110;
+    box-shadow: none;
+    border-radius: 5px;
+    color: white;
 }
