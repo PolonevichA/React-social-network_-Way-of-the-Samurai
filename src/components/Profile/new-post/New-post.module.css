@@ -1,0 +1,14 @@
+.form {
+    width: 100%;
+}
+
+.title{
+    display: block;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.text{
+    width: 100%;
+    padding: 15px;
+}
